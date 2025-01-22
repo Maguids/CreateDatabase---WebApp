@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<img src="static/disney_background.jpg" alt="Disney" width="900" height="300">
+
+<center><h1>-------------------------- Disney Database --------------------------</h1></center>
+
+
+<h2>About</h2>
+<p>This web application was created by Magda Costa, Rafael Pacheco and Sofia Machado and it illustrates the use of the Disney Movies
+    database. The application is built using
+    <a href="https://docs.python.org/3/library/sqlite3.html">sqlite3</a>,
+    <a href="https://flask.palletsprojects.com">Flask</a>, and
+    <a href="https://jinja.palletsprojects.com">Jinja</a>.
+</p>
+
+<p>Through various SQL queries and using techniques we learned throghout this semester, we managed to build this SQl
+embedded application which will allow you to search relevant data regarding our dataset more efficiently.</p>
+
+
+<h2>Some database statistics</h2>
+<table>
+    <tr>
+        <th>Items</th>
+        <th>Count</th>
+    </tr>
+    <tr>
+        <td>Movies</td>
+        <td>{{ stats.n_movies }}</td>
+    </tr>
+    <tr>
+        <td>Characters</td>
+        <td>{{ stats.n_characters }}</td>
+    </tr>
+    <tr>
+        <td>Voice Actors</td>
+        <td>{{ stats.n_actors }}</td>
+    </tr>
+    <tr>
+        <td>Directors</td>
+        <td>{{ stats.n_directors }}</td>
+    </tr>
+    <tr>
+        <td>Genres</td>
+        <td>{{ stats.n_genres }}</td>
+    </tr>
+</table>
+
+<h2>START YOUR JOURNEY</h2>
+<p>Below, you will find a page with the searches we implemented. The former will display tables with more general information regarding the aspect of your search. 
+<p>You can choose to look for information relating to all of the items shown in the "Some database statistics" above.</p>
+<p>Since our SQL queries include the association of tables in our dataset, the information searched can link
+   characteristics of different items, encouraging the user to find connections regarding different aspects of the items matched.</p>
+<br>
+<p>Click <a href="/search/">here</a> to be redirected to the search page.</p>
+<p>We leave the rest up to you!</p>
+
+
+{% endblock %}

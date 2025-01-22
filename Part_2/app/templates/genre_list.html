@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav>
+    <a href="/search/">SEARCH PAGE</a>
+</nav>
+
+<h1>GENRES</h1>
+
+<p>Search by Name:
+<form name="msearch"
+    action="javascript:window.open('/genres/name/'+document.forms['msearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="" required />
+    <input type="submit" value="search" />
+</form>
+</p>
+
+<p>Search by Id:
+<form name="mid" action="javascript:window.open('/genres/id/'+document.forms['mid'].elements['id'].value,'_self')">
+    <input value="" name="id" type="number" min="1" /><input type="submit" value="get" />
+</form>
+</p>
+
+<p>
+    <a href="/genres/">CLEAR</a>
+</p>
+
+{% if search.expr != None %}
+    {% if search.type == 'name' %}
+        <h3>From the name '{{ search.expr }}' we found:</h3>
+    {% else %}
+        <h3>From the id '{{ search.expr }}' we found:</h3>
+    {% endif %}
+    
+    {% if search_genres|length > 0 %}
+        <table>
+            <tr>
+                <th>
+                    <b>IdGenre</b>
+                </th>
+                <th>
+                    <b>Name</b>
+                </th>
+            </tr>
+
+            {% for g in search_genres %}
+                <tr>
+                    <td>
+                        <a href="/genres/info/{{ g.IdGenre }}">{{ g.IdGenre }}</a>
+                    </td>
+                    <td>
+                        {{ g.Name }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+    <p>No genres found in these conditions. Sorry!</p>
+    {% endif %}
+{% endif %}
+
+<br>
+
+<h2>All Genres:</h2>
+<table>
+    <tr>
+        <th>
+            <b>IdGenre</b>
+        </th>
+        <th>
+            <b>Name</b>
+        </th>
+    </tr>
+
+    {% for genre in genres %}
+        <tr>
+            <td>
+                <a href="/genres/info/{{ genre.IdGenre }}">{{ genre.IdGenre }}</a>
+            </td>
+            <td>
+                {{ genre.Name }}
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav>
+    <a href="/search/">SEARCH PAGE</a>
+</nav>
+
+<nav>
+    <a href="/movies/">Movie</a>
+</nav>
+
+<h1>{{ movie.Name }}</h1>
+
+<h2>A bit about me:</h2>
+<p>I was released on the date of {{ movie.ReleaseDate }}.</p>
+<p>Can you believe I made {{ movie.gross }}.</p>
+
+<h2>In summary:</h2>
+<h3>Movie:</h3>
+<p>
+    <b>IdMovie: </b>{{ movie.IdMovie }}
+</p>
+<p>
+    <b>Name: </b>{{ movie.Name }}
+</p>
+<p>
+    <b>Release Date: </b>{{ movie.ReleaseDate }}
+</p>
+<p>
+    <b>Gross: </b>{{ movie.gross }}
+</p>
+<h3>Genre:</h3>
+<ul>
+    {% for g in genres %}
+        <li>
+            <a href="/genres/info/{{ g.IdGenre }}">{{ g.Name }}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+<h3>Director</h3>
+<ul>
+    {% for d in directors %}
+        <li>
+            <a href="/directors/info/{{ d.IdDirector }}">{{ d.n_d }}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+
+<h3>Actors and Characters</h3>
+<table>
+    <tr>
+        <th>
+            <b>Actor</b>
+        </th>
+        <th>
+            <b>Character</b>
+        </th>
+    </tr>
+
+    {% for a in character_actor %}
+        <tr>
+            <td>
+                <a href="/actors/info/{{ a.id_A }}">{{ a.n_A }}</a>
+            </td>
+            <td>
+                <a href="/characters/info/{{ a.id_C }}">{{ a.n_C }}</a>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

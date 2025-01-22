@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav>
+    <a href="/search/">SEARCH PAGE</a>
+</nav>
+
+<h1>CHARACTERS</h1>
+
+<p>Search by Name:
+<form name="msearch"
+    action="javascript:window.open('/characters/name/'+document.forms['msearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value="" required />
+    <input type="submit" value="search" />
+</form>
+</p>
+
+<p>Search by Id:
+<form name="mid" action="javascript:window.open('/characters/id/'+document.forms['mid'].elements['id'].value,'_self')">
+    <input value="" name="id" type="number" min="1" /><input type="submit" value="get" />
+</form>
+</p>
+
+<p>
+    <a href="/characters/">CLEAR</a>
+</p>
+
+{% if search.expr != None %}
+    {% if search.type == 'name' %}
+        <h3>From the name '{{ search.expr }}' we found:</h3>
+    {% else %}
+        <h3>From the id '{{ search.expr }}' we found:</h3>
+    {% endif %}
+    
+    {% if search_characters|length > 0 %}
+        <table>
+            <tr>
+                <th>
+                    <b>IdCharacter</b>
+                </th>
+                <th>
+                    <b>Name</b>
+                </th>
+            </tr>
+
+            {% for c in search_characters %}
+                <tr>
+                    <td>
+                        <a href="/characters/info/{{ c.IdCharacter }}">{{ c.IdCharacter }}</a>
+                    </td>
+                    <td>
+                        {{ c.Name }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No characters found in these conditions. Sorry!</p>
+    {% endif %}
+{% endif %}
+
+<br>
+
+<h2>All Characters:</h2>
+<table>
+    <tr>
+        <th>
+            <b>IdCharacter</b>
+        </th>
+        <th>
+            <b>Name</b>
+        </th>
+        <th>
+            <b>Species</b>
+        </th>
+        <th>
+            <b>Role</b>
+        </th>
+    </tr>
+
+    {% for character in characters %}
+        <tr>
+            <td>
+                <a href="/characters/info/{{ character.IdCharacter }}">{{ character.IdCharacter }}</a>
+            </td>
+            <td>
+                {{ character.Name }}
+            </td>
+            <td>
+                <a href="/species/info/{{ character.Species }}">{{ character.Species }}</a>
+            </td>
+            <td>
+                <a href="/roles/info/{{ character.Role }}">{{ character.Role }}</a>
+            </td>
+        </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

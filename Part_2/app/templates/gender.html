@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav>
+    <a href="/search/">SEARCH PAGE</a>
+</nav>
+
+<h1>Gender {{ search }}!</h1>
+
+<br>
+
+<p>Apparently you decided to see who of the crew identifies as a {{search}}!</p>
+<p>To help you with that, here's a list of everyone that is {{ search }} and what they do.</p>
+
+<br>
+
+<h3>Job and Name</h3>
+<table>
+    <tr>
+        <th>
+            <b>Job</b>
+        </th>
+        <th>
+            <b>Name</b>
+        </th>
+    </tr>
+
+    {% for ge in gender %}
+    <tr>
+        <td>
+            {% if ge.source == 'Actor' %}
+                <a href="/actors/">{{ ge.source }}</a>
+            {% else %}
+                <a href="/directors/">{{ ge.source }}</a>
+            {% endif %}
+        </td>
+        <td>
+            {% if ge.source == 'Actor' %}
+                <a href="/actors/info/{{ ge.id }}">{{ ge.name }}</a>
+            {% else %}
+                <a href="/directors/info/{{ ge.id }}">{{ ge.name }}</a>
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

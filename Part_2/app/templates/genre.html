@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav>
+    <a href="/search/">SEARCH PAGE</a>
+</nav>
+
+<nav>
+    <a href="/genres/">Genre</a>
+</nav>
+
+<h1>{{ genre.Name }}</h1>
+
+<br>
+<h2>In summary:</h2>
+<h3>Genre:</h3>
+<p> <b>Id:</b> {{ genre.IdGenre }}</p>
+<p> <b>Name:</b> {{ genre.Name }}</p>
+<p> <b>Description:</b> {{ genre.Description }}</p>
+<h3>Movie:</h3>
+<table>
+    <tr>
+        <th>
+            <b>Movie</b>
+        </th>
+    </tr>
+
+    {% for m in movie %}
+    <tr>
+        <td>
+            <a href="/movies/info/{{ m.id_m }}">{{ m.n_m }}</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

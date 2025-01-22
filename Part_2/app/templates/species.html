@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav>
+    <a href="/search/">SEARCH PAGE</a>
+</nav>
+
+<nav>
+    <a href="/characters/">Character</a>
+</nav>
+
+<h1>Hello I'm a/an {{ search }}!</h1>
+
+<br>
+
+<p>Apparently you decided to see who are the characters of my type!</p>
+<p>To help you with that, here's a list of all the characters that are {{ search }} and the movie they're in.</p>
+
+<br>
+
+<h3>Characters and Movies</h3>
+<table>
+    <tr>
+        <th>
+            <b>Character</b>
+        </th>
+        <th>
+            <b>Movie</b>
+        </th>
+    </tr>
+
+    {% for s in species %}
+    <tr>
+        <td>
+            <a href="/characters/info/{{ s.id_c }}">{{ s.n_c }}</a>
+        </td>
+        <td>
+            <a href="/movies/info/{{ s.id_m }}">{{ s.n_m }}</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}

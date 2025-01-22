@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<nav>
+    <a href="/search/">SEARCH PAGE</a>
+</nav>
+
+<h1>MOVIES</h1>
+
+<p>Search by movie name:
+<form name="msearch"
+    action="javascript:window.open('/movies/name/'+document.forms['msearch'].elements['expr'].value,'_self')">
+    <input name="expr" id="expr" value required />
+    <input type="submit" value="search" />
+</form>
+</p>
+
+<p>Search by movie's year of release (4 digits):
+    <form name="msearch_year"
+        action="javascript:window.open('/movies/year/'+document.forms['msearch_year'].elements['expr'].value,'_self')">
+        <input name="expr" id="expr" value required />
+        <input type="submit" value="search" />
+    </form>
+    </p>
+
+<p>Search by movie id:
+<form name="mid" action="javascript:window.open('/movies/id/'+document.forms['mid'].elements['id'].value,'_self')">
+    <input value name="id" type="number" min="1" /><input type="submit" value="get" />
+</form>
+</p>
+
+
+
+<p>
+    <a href="/movies/">CLEAR</a>
+</p>
+
+{% if search.expr != None %}
+    {% if search.type == 'name' %}
+        <h3>From the name '{{ search.expr }}' we found:</h3>
+    {% elif search.type == 'year' %}
+        <h3>From the year '{{ search.expr }}' we found:</h3>
+    {% else %}
+        <h3>From the id '{{ search.expr }}' we found:</h3>
+    {% endif %}
+
+    {% if search_movie|length > 0 %}
+        <table>
+            <tr>
+                <th>
+                    <b>IdMovie</b>
+                </th>
+                <th>
+                    <b>Name</b>
+                </th>
+                <th>
+                    <b>Release Date</b>
+                </th>
+            </tr>
+
+            {% for c in search_movie %}
+                <tr>
+                    <td>
+                        <a href="/movies/info/{{ c.Idmovie }}">{{c.Idmovie }}</a>
+                    </td>
+                    <td>
+                        {{ c.Name }}
+                    </td>
+                    <td>
+                        {{ c.ReleaseDate }}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No movies found in these conditions. Sorry!</p>
+    {% endif %}
+{% endif %}
+
+<br>
+
+<h2>All Movies:</h2>
+<table>
+    <tr>
+        <th>
+            <b>IdMovie</b>
+        </th>
+        <th>
+            <b>Name</b>
+        </th>
+    </tr>
+
+    {% for movie in movies %}
+    <tr>
+        <td>
+            <a href="/movies/info/{{ movie.IdMovie }}">{{ movie.IdMovie }}</a>
+        </td>
+        <td>
+            {{ movie.Name }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+{% endblock %}
