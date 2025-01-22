@@ -1,0 +1,50 @@
+﻿IdMovie;Name;Date of release;Gross;IdDirector
+1;101 Dalmatians;Jan 25, 1961;$153,000,000;31
+2;A Goofy Movie;Apr 7, 1995;$35,336,439;16
+3;Aladdin;Nov 11, 1992;$217,350,219;26
+4;Alice in Wonderland;Mar 5, 2010;$334,191,110;8
+5;Atlantis: The Lost Empire;Jun 8, 2001;$84,052,762;12
+6;Beauty and the Beast;Nov 13, 1991;$218,951,625;12
+7;Bedknobs and Broomsticks;Oct 7, 1971;$17,871,174;23
+8;Big Hero 6;Nov 7, 2014;$222,527,828;10
+9;Bolt;Nov 21, 2008;$114,053,759;7
+10;Brother Bear;Oct 24, 2003;$85,336,277;24
+11;Chicken Little;Nov 4, 2005;$135,386,665;17
+12;Cinderella;Feb 15, 1950;$85,000,000;29
+13;Dinosaur;May 19, 2000;$137,748,063;21
+14;Enchanted;Nov 21, 2007;$127,706,877;16
+15;Frozen;Nov 22, 2013;$400,738,009;5
+16;Hercules;Jun 13, 1997;$99,112,101;26
+17;Home on the Range;Apr 2, 2004;$50,026,353;30
+18;Lady and the Tramp;Jun 22, 1955;$93,600,000;14
+19;Lilo & Stitch;Jun 21, 2002;$145,771,527;6
+20;Meet the Robinsons;Mar 30, 2007;$97,822,171;27
+21;Moana;Nov 23, 2016;$246,082,029;26
+22;Mulan;Jun 19, 1998;$120,620,254;2
+23;Oliver & Company;Nov 18, 1988;$49,576,671;13
+24;Pinocchio;Feb 9, 1940;$84,300,000;3
+25;Pocahontas;Jun 10, 1995;$141,579,773;18
+26;Pooh's Heffalump Movie;Feb 11, 2005;$18,098,433;11
+27;Sleeping Beauty;Jan 29, 1959;$9,464,608;8
+28;Snow White and the Seven Dwarfs;Dec 21, 1937;$184,925,485;9
+29;Song of the South;Nov 12, 1946;$65,000,000;29
+30;Tangled;Nov 24, 2010;$200,821,936;19
+31;Tarzan;Jun 16, 1999;$171,091,819;5
+32;The Aristocats;Apr 24, 1970;$55,675,257;31
+33;The Black Cauldron;Jul 24, 1985;$21,288,692;28
+34;The Country Bears;Jul 26, 2002;$16,988,996;20
+35;The Emperor's New Groove;Dec 15, 2000;$89,296,573;17
+36;The Fox and the Hound;Jul 10, 1981;$43,899,231;1
+37;The Great Mouse Detective;Jul 2, 1986;$23,605,534;26
+38;The Hunchback of Notre Dame;Jun 21, 1996;$100,138,851;12
+39;The Jungle Book;Oct 18, 1967;$141,843,000;31
+40;The Lion King;Jun 15, 1994;$422,780,140;25
+41;The Little Mermaid;Nov 15, 1989;$111,543,479;26
+42;The Princess and the Frog;Nov 25, 2009;$104,400,899;26
+43;The Rescuers;Jun 22, 1977;$48,775,599;31
+44;The Rescuers Down Under;Nov 16, 1990;$27,931,461;18
+45;The Sword in the Stone;Dec 25, 1963;$22,182,353;31
+46;Treasure Planet;Nov 27, 2002;$38,120,554;26
+47;Tron: Legacy;Dec 17, 2010;$172,062,763;15
+48;Wreck-It Ralph;Nov 2, 2012;$189,412,677;22
+49;Zootopia;Mar 4, 2016;$341,268,248;4

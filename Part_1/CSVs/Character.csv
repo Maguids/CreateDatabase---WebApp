@@ -1,0 +1,571 @@
+﻿IdCharacter;Name;Role;Species;IdMovie;IdActor
+1;Abby Mallard;Hero ;Duck;11;216
+2;Abigail Gabble;Extra;Goose;32;323
+3;Abu;Sidekick;Monkey;3;134
+4;Achilles;Sidekick;Horse;38;325
+5;Adella;Extra;Mermaid;41;408
+6;Agent Wendy Pleakley;Sidekick;Alien;19;263
+7;Akela;Sidekick;Wolf;39;225
+8;Al the Alligator;Sidekick;Alligator;18;428
+9;Aladar;Hero ;Dinosaur;13;82
+10;Aladdin;Hero ;Human;3;402
+11;Alameda Slim;Villian;Human;17;364
+12;Alana;Extra;Mermaid;41;265
+13;Alcmene;Extra;Human;16;23
+14;Alice;Hero ;Human;4;255
+15;Alice's Sister;Extra;Human;4;164
+16;Am;Villian;Cat;18;354
+17;Amelia Gabble;Extra;Goose;32;56
+18;Amos Slade;Villain;Human;36;173
+19;Amphitryon;Extra;Human;16;157
+20;Anastasia Tremaine;Extra;Human;12;286
+21;Andrina;Extra;Mermaid;41;422
+22;Anita Radcliffe;Hero ;Human;1;282
+23;Anna;Hero ;Human;15;266
+24;Apollo;Extra;God;16;258
+25;Aquata;Extra;Mermaid;41;156
+26;Archimedes;Sidekick;Owl;45;250
+27;Archimedes Q. Porter;Sidekick;Human;31;334
+28;Ariel;Hero;Mermaid;41;219
+29;Arista;Extra;Mermaid;41;265
+30;Armoire;Sidekick;Wardrobe / Human;6;214
+31;Arthur;Hero;Human;45;374
+32;Assistant Mayor Dawn Bellwether;Villain;Sheep;49;202
+33;Atropos;Extra;Deities;16;340
+34;Attina;Extra;Mermaid;41;252
+35;Audrey Ramirez;Hero ;Human;5;175
+36;Audrey the Chicken;Extra;Chicken;17;128
+37;Aunt Sarah;Extra;Human;18;442
+38;Aurora;Hero;Human;27;297
+39;B.E.N.;Sidekick;Robot;46;296
+40;Babette;Sidekick;Duster / Human;6;298
+41;Bagheera;Sidekick;Panther;39;405
+42;Baker;Sidekick;Human;6;9
+43;Baloo Bear;Sidekick;Bear;39;359
+44;Banzai;Villain;Hyena;40;67
+45;Bartholomew;Extra;Mouse;37;27
+46;Bashful;Sidekick;Dwarf;28;403
+47;Basil of Baker Street;Hero;Mouse;37;27
+48;Baylene;Sidekick;Dinosaur;13;217
+49;Bear;Sidekick;Bear;7;83
+50;Beary Barrington;Hero;Bear;34;159
+51;Beast;Hero ;Beast/Human;6;379
+52;Beaver;Extra;Beaver;18;411
+53;Belle;Hero ;Human;6;341
+54;Ben;Sidekick;Human;25;36
+55;Benjamin Clawhauser;Sidekick;Leopard;49;328
+56;Berlioz;Sidekick;Cat;32;96
+57;Bernard;Hero;Mouse;43;40
+58;Big Al;Villain;Bear;34;180
+59;Big Mama;Sidekick;Human;36;353
+60;Bill the Lizard;Villian;Lizard;4;272
+61;Billy Bones;Extra;Human;46;345
+62;Billy Boss;Extra;Cat;32;428
+63;Bimbette;Extra;Human;6;254
+64;Black Bart;Extra;Human;45;428
+65;Blake;Sidekick;Pigeon;9;332
+66;Blue Fairy;Extra;Fairy;24;132
+67;Bolt;Hero ;Dog;9;236
+68;Bonnie Hopps;Hero;Rabbit;49;42
+69;Bookseller;Extra;Human;6;11
+70;Boomer;Sidekick;Woodpecker;36;351
+71;Bowler Hat Guy;Villian;Human;20;412
+72;Br'er Bear;Villain;Bear;29;331
+73;Br'er Fox;Villain;Fox;29;178
+74;Br'er Rabbit;Hero;Rabbit;29;237
+75;Bruno the Dog;Sidekick;Dog;12;213
+76;Bruton;Sidekick;Dinosaur;13;357
+77;Brutus;Extra;Crocodile;43;52
+78;Buck;Sidekick;Horse;17;80
+79;Buck Cluck;Sidekick;Chicken;11;142
+80;Bucky Oryx-Antlerson;Extra;Oryx;49;51
+81;Bucky the Squirrel;Extra;Squirrel;35;39
+82;Buford the Cook;Extra;Human;42;308
+83;Buzzie the Vulture;Extra;Vulture;39;171
+84;Calliope;Extra;Muse;16;279
+85;Candlehead;Extra;Human;48;256
+86;Captain Amelia;Sidekick;Alien;46;126
+87;Captain Gantu;Villian;Alien;19;264
+88;Captain John Smith;Hero ;Human;25;305
+89;Captain Phoebus;Sidekick;Human;38;262
+90;Carl the Robot;Sidekick;Robot;20;160
+91;Carlotta the Maid;Extra;Human;41;122
+92;Chaca;Sidekick;Human;35;260
+93;Chair Mouse;Extra;Mouse;43;29
+94;Charlotte La Bouff;Extra;Human;42;200
+95;Chef Bouche;Sidekick;Stove / Human;6;46
+96;Chef Louis;Extra;Human;41;367
+97;Cheshire Cat;Sidekick;Cat;4;413
+98;Chicha;Sidekick;Human;35;450
+99;Chicken Little;Hero ;Chicken;11;456
+100;Chief;Villain;Dog;36;342
+101;Chief Bogo;Sidekick;Buffalo;49;168
+102;Chief Powhatan;Extra;Human;25;394
+103;Chien-Po;Sidekick;Human;22;208
+104;Chi-Fu;Villian;Human;22;182
+105;Chip Potts;Sidekick;Mug / Human;6;44
+106;Cinderella;Hero ;Human;12;169
+107;Clayton;Villain;Human;31;45
+108;Cleo;Extra;Fish;24;325
+109;Clio;Extra;Muse;16;441
+110;Clopin Trouillefou;Sidekick;Human;38;349
+111;Clotho;Extra;Deities;16;12
+112;Cobra Bubbles;Hero ;Human;19;444
+113;Codfish;Sidekick;Fish;7;381
+114;Cody;Sidekick;Human;44;2
+115;Cogsworth;Sidekick;Clock / Human;6;94
+116;Colonel Hathi;Extra;Human;39;171
+117;Commander Lyle Rourke;Villian;Human;5;181
+118;Cookie;Sidekick;Human;5;212
+119;Copper;Extra;Hound;36;78
+120;Cornelius Robinson;Sidekick;Human;20;433
+121;Cousin Randy;Extra;Human;42;363
+122;Creeper;Villain;Goblin ;33;358
+123;Cri-Kee;Sidekick;Grasshopper;22;325
+124;Cruella de Vil;Villian;Human;1;31
+125;Crumbelina DiCaramello;Extra;Human;48;81
+126;Dallben;Sidekick;Wizard;33;138
+127;Darling;Hero ;Human;18;354
+128;David Kawena;Hero ;Human;19;195
+129;Demetrius;Extra;Human;16;448
+130;Denahi;Sidekick;Human;10;194
+131;DeSoto;Villian;Dog;23;53
+132;Dex Barrington;Sidekick;Human;34;251
+133;Diablo;Villain;Raven;27;325
+134;Digger the Mole;Extra;Mole;43;113
+135;Dinah the Cat;Extra;Cat;4;325
+136;Dinky;Sidekick;Sparrow;36;371
+137;Dizzie the Vulture;Extra;Vulture;39;284
+138;Djali;Sidekick;Goat;38;325
+139;Doc;Sidekick;Dwarf;28;392
+140;Doctor Mouse;Extra;Mouse;44;29
+141;Dodger;Sidekick;Dog;23;38
+142;Doli;Sidekick;Elf;33;226
+143;Dopey;Sidekick;Dwarf;28;120
+144;Doris;Villian;Robot;20;129
+145;Doug Ramses;Villain;Sheep;49;370
+146;Dr. Calico;Villian;Human;9;290
+147;Dr. David Q. Dawson;Sidekick;Mouse;37;440
+148;Dr. Doppler;Sidekick;Alien;46;93
+149;Dr. Facilier;Villain;Sorcerer;42;258
+150;Dr. Forrester;Villian;Human;9;387
+151;Dr. Joshua Sweet;Hero ;Human;5;360
+152;Dr. Jumba Jookiba;Sidekick;Alien;19;94
+153;Drizella Tremaine;Villian;Human;12;369
+154;Duchess;Sidekick;Cat;32;130
+155;Duke of Weselton;Villian;Human;15;7
+156;Duke Weaselton;Villain;Weasel;49;7
+157;Duncan;Extra;Donut;48;166
+158;Ed;Villain;Hyena;40;210
+159;Edgar Balthazar the Butler;Villain;Human;32;385
+160;Eema;Sidekick;Dinosaur;13;97
+161;Einstein;Sidekick;Dog;23;373
+162;"Eli ""Big Daddy"" La Bouff";Extra;Human;42;230
+163;Ellie Mae;Extra;Muskrat;43;196
+164;Elsa;Hero ;Human;15;167
+165;Emperor of China;Extra;Human;22;344
+166;Esmeralda;Sidekick;Human;38;98
+167;Eudora;Extra;Human;42;337
+168;Evinrude;Hero;Dragonfly;43;213
+169;Fa Li;Extra;Human;22;137
+170;Fa Zhou;Extra;Human;22;410
+171;Fagin;Sidekick;Human;23;105
+172;Fairy Godmother;Sidekick;Fairy;12;442
+173;Faloo;Extra;Kangaroo;44;54
+174;Father Wolf;Sidekick;Wolf;39;28
+175;Fauna;Sidekick;Fairy;27;25
+176;Felicia the Cat;Extra;Cat;37;134
+177;Fenton Q. Harcourt;Hero ;Human;5;94
+178;Fflewddur Fflam;Sidekick;Human;33;334
+179;Fidget;Villain;Bat;37;52
+180;Fifi the Featherduster;Sidekick;Featherduster / Human;6;265
+181;Figaro the Cat;Sidekick;Cat;24;304
+182;Finnick;Extra;Fennec;49;434
+183;First Ancestor Fa;Extra;Ancestor;22;148
+184;Fish Out of Water;Sidekick;Fish;11;84
+185;Fix-It Felix Jr.;Sidekick;Human;48;174
+186;Flaps the Vulture;Extra;Vulture;39;59
+187;Flash Slothmore;Sidekick;Sloth;49;366
+188;Flit;Sidekick;Hummingbird;25;134
+189;Flora;Sidekick;Fairy;27;442
+190;Flotsam and Jetsam;Extra;Eel;41;340
+191;Flounder;Sidekick;Fish;41;192
+192;Flunkey the Baboon;Extra;Baboon;39;277
+193;Flynn Rider;Sidekick;Human;30;457
+194;Footman;Extra;Human;12;272
+195;Foxy Loxy;Villian;Fox;11;15
+196;Francis;Sidekick;Dog;23;388
+197;Francois;Extra;Cricket;44;116
+198;Frank;Extra;Lizard;44;449
+199;Frankie the Frog;Sidekick;Frog;20;21
+200;Franny Robinson;Hero ;Human;20;333
+201;Frou-Frou;Extra;Horse;32;326
+202;"Gaetan ""Mole"" Moliére";Sidekick;Human;5;77
+203;Gaston;Villian;Human;6;376
+204;Gazelle;Sidekick;Gazelle;49;406
+205;General Hologram;Extra;Hologram;48;99
+206;General Li;Extra;Human;22;185
+207;Genie;Sidekick;Genie;3;383
+208;Georges Hautecourt;Extra;Human;32;64
+209;Georgette;Villian;Dog;23;30
+210;Geppetto;Sidekick;Human;24;72
+211;Gideon;Villian;Cat;24;304
+212;Giselle;Hero ;Human;14;13
+213;Goob;Villian;Human;20;301
+214;Goosey Loosey;Villian;Goose;11;293
+215;Governor John Ratcliffe;Villain;Human;25;94
+216;Grace;Sidekick;Cow;17;201
+217;Gramma Tala;Sidekick;Human;21;362
+218;Gramps;Extra;Turtle;43;271
+219;Grand Councilwoman;Hero ;Alien;19;458
+220;Grandmother Fa;Sidekick;Human;22;249
+221;Grandmother Willow;Sidekick;Tree;25;280
+222;Grimsby;Sidekick;Human;41;28
+223;Grumpy;Sidekick;Dwarf;28;361
+224;Gurgi;Sidekick;Beast;33;226
+225;Gus Lollygagger;Extra;Mouse;12;213
+226;Hades;Villian;God;16;186
+227;Hands;Extra;Human;46;312
+228;Happy;Sidekick;Dwarf;28;339
+229;Harold the Seahorse;Sidekick;Seahorse;41;453
+230;Haroud Hazi Bin;Extra;Human;3;177
+231;Harvey Fenner;Extra;Human;42;77
+232;Heihei the Rooster;Sidekick;Rooster;21;7
+233;Helga Sinclair;Villian;Human;5;74
+234;Hen Wen;Sidekick;Pig;33;325
+235;Henry Fenner;Extra;Human;42;206
+236;Hera;Extra;God;16;396
+237;Hercules;Hero ;Demigod;16;423
+238;Hermes;Extra;God;16;350
+239;Hiram Flaversham;Sidekick;Mouse;37;8
+240;Hit Cat the English Cat;Sidekick;Cat;32;284
+241;Hook Hand;Extra;Human;30;43
+242;Horace;Villian;Human;1;139
+243;Hugo;Sidekick;Gargoyle;38;190
+244;Humbert the Huntsman;Sidekick;Human;28;416
+245;Iago;Villian;Parrot;3;150
+246;Ian the Alligator;Extra;Alligator;42;264
+247;J. Worthington Foulfellow;Villian;Fox;24;447
+248;"Jackson ""Jaq"" Hopscotch";Sidekick;Mouse;12;213
+249;Jafar;Villian;Sorcerer;3;239
+250;Jake;Hero;Mouse;44;439
+251;Jane Porter;Sidekick;Human;31;319
+252;Jasper;Villian;Human;1;171
+253;Jeb the Goat;Sidekick;Goat;17;220
+254;"Jennifer ""Jenny"" Foxworth";Hero ;Human;23;327
+255;Jerry Jumbeaux Jr.;Extra;Elephant;49;229
+256;Jesse the Ram;Extra;Ram;49;229
+257;Jim Dear;Hero ;Human;18;275
+258;Jim Hawkins;Hero;Human;46;243
+259;Jiminy Cricket;Sidekick;Cricket;24;75
+260;Jock;Sidekick;Dog;18;34
+261;John Silver;Villain;Human;46;47
+262;Jubileena Bing-Bing;Extra;Human;48;246
+263;Judge Claude Frollo;Villain;Human;38;437
+264;Judy Hopps;Sidekick;Rabbit;49;151
+265;Junior;Sidekick;Elephant;39;76
+266;Junior the Buffalo;Sidekick;Buffalo;17;270
+267;Kaa;Villain;Snake;39;413
+268;Kala;Sidekick;Gorilla;31;152
+269;Kekata the Medicine man;Villain;Human;25;153
+270;Kenai;Hero ;Bear/Human;10;218
+271;Kerchak;Sidekick;Gorilla;31;269
+272;King Candy (Turbo);Villain;Human;48;7
+273;King Eiddileg;Extra;Human;33;19
+274;King Hubert;Sidekick;Human;27;34
+275;King Kashekim Nedakh;Hero ;Human;5;278
+276;King Leonidas;Extra;Lion;7;276
+277;King Louie;Extra;Orangutan;39;285
+278;King Stefan;Sidekick;Human;27;425
+279;King Triton;Sidekick;Triton;41;261
+280;Kirby;Sidekick;Alien;11;404
+281;Kocoum;Extra;Human;25;176
+282;Koda;Sidekick;Bear;10;204
+283;Krebbs;Extra;Koala;44;112
+284;Kristoff;Hero ;Human;15;240
+285;Kron;Villian;Dinosaur;13;397
+286;Kronk Pepikrankenitz;Extra;Llama/Human;35;347
+287;Kuzco;Hero;Human;35;95
+288;Lachesis;Extra;Deities;16;56
+289;Lady;Hero ;Dog;18;26
+290;Lady Mouse;Extra;Mouse;37;407
+291;Lady Tremaine;Villian;Human;12;123
+292;Lafayette the Basset Hound;Extra;Dog;32;146
+293;Lampwick;Villian;Human;24;135
+294;Larry the Duck;Sidekick;Duck;17;294
+295;Laverne;Extra;Gargoyle;38;299
+296;Lawrence the Valet;Villain;Human;42;355
+297;Le Fou;Villian;Human;6;209
+298;Lefty;Villian;Alien;20;329
+299;Lewis;Hero ;Human;20;242
+300;Li Shang;Hero ;Human;22;22
+301;Lilo Pelekai;Hero ;Human;19;91
+302;Ling;Sidekick;Human;22;144
+303;Lizzy;Extra;Human;20;438
+304;Louie the Hot Dog Man;Extra;Human;23;134
+305;Louis the Alligator;Sidekick;Alligator;42;311
+306;Lucifer the Cat;Villian;Cat;12;249
+307;Lucille Krunklehorn;Sidekick;Human;20;274
+308;Lucky Jack;Sidekick;Rabbit;17;61
+309;Luke;Extra;Muskrat;43;342
+310;Lumière;Sidekick;Candelabra / Human;6;207
+311;Lumpy the Heffalump;Extra;Elephant;26;267
+312;Mad Hatter;Sidekick;Human;4;118
+313;Madam Mim;Villain;Human;45;295
+314;Madame Adelaide Bonfamille;Extra;Human;32;165
+315;Madame Medusa;Villain;Human;43;149
+316;Maggie;Sidekick;Cow;17;389
+317;Magic Carpet;Sidekick;Carpet;3;325
+318;Major the Horse;Sidekick;Horse;12;325
+319;Maleficent;Villain;Witch;27;123
+320;Mama Odie;Sidekick;Human;42;199
+321;Marahute;Extra;Eagle;44;134
+322;March Hare;Sidekick;Hare;4;205
+323;Marie;Sidekick;Cat;32;283
+324;Markowski;Extra;Human;48;222
+325;Marlon the Alligator;Extra;Alligator;42;125
+326;Maui;Sidekick;Human;21;114
+327;Maurice;Extra;Human;6;368
+328;Max the Sheepdog;Sidekick;Dog;41;134
+329;Maximus;Sidekick;Horse;30;325
+330;Mayor Lionheart;Sidekick;Lion;49;172
+331;Mechanicles;Villian;Human;3;65
+332;Meeko;Sidekick;Raccon;25;232
+333;Megara;Hero ;Human;16;417
+334;Melpomene;Extra;Musa;16;68
+335;Melvin;Extra;Alien;11;136
+336;Merlin;Sidekick;Mage;45;253
+337;Merryweather;Extra;Fairy;27;26
+338;Mildred;Extra;Human;20;16
+339;Milo Thatch;Hero ;Human;5;309
+340;Mindy;Extra;Human;9;252
+341;Miss Bianca;Hero;Mouse;43;130
+342;Miss Kitty;Extra;Cat;37;306
+343;Mittens;Sidekick;Cat;9;421
+344;Moana Waialiki;Hero ;Human;21;20
+345;Monsieur D'Arque;Villian;Human;6;437
+346;Monstro;Villian;Whale;24;428
+347;Morcupine Porcupine;Extra;Porcupine;11;292
+348;Morph;Sidekick;Alien;46;85
+349;Mother Gothel;Villain;Human;30;110
+350;Mowgli;Hero;Human;39;48
+351;Mozenrath;Villian;Sorcerer;3;238
+352;Mr. Arrow;Extra;Rock;46;388
+353;Mr. Big;Villain;Shrew;49;302
+354;Mr. Litwak;Extra;Human;48;117
+355;Mr. Snoops;Villain;Human;43;221
+356;Mr. Willerstein;Extra;Human;20;432
+357;Mr. Woolensworth;Extra;Sheep;11;346
+358;Mrs. Calloway;Hero ;Cow;17;247
+359;Mrs. Hasagawa;Extra;Human;19;14
+360;Mrs. Judson;Sidekick;Mouse;37;100
+361;Mrs. Otterton;Sidekick;Otter;49;336
+362;Mrs. Potts;Sidekick;Teapot / Human;6;17
+363;Mufasa;Hero;Lion;40;179
+364;Mulan;Hero ;Human;22;318
+365;Mungo;Sidekick;Gorilla;31;193
+366;Mushu;Sidekick;Dragon;22;121
+367;Myrtle Edmonds;Extra;Human;19;320
+368;Nakoma;Sidekick;Human;25;313
+369;Nala;Sidekick;Lion;40;322
+370;Nancy Tremaine;Hero ;Human;14;167
+371;Nani Pelekai;Hero ;Human;19;429
+372;Napoleon the Bloodhound;Sidekick;Dog;32;342
+373;Nathaniel;Extra;Human;14;430
+374;Neera;Sidekick;Dinosaur;13;248
+375;Nero;Extra;Crocodile;43;52
+376;Nessus;Villian;Centaur;16;210
+377;"Nicholas ""Nick"" P. Wilde";Sidekick;Fox;49;191
+378;Nurse Mouse;Extra;Mouse;44;395
+379;Oaken;Extra;Human;15;70
+380;Olaf;Sidekick;Snowman;15;245
+381;Oliver;Hero ;Cat;23;224
+382;Olivia Flaversham;Sidekick;Mouse;37;420
+383;Ollie the Pig;Sidekick;Pig;17;66
+384;Onus;Extra;Alien;46;77
+385;Orddu;Villain;Witch;33;119
+386;Orgoch;Villain;Witch;33;35
+387;Orville;Hero;Albatross;43;211
+388;Orwen;Villain;Witch;33;4
+389;Pacha;Sidekick;Human;35;230
+390;Pain;Villian;Shapeshifter;16;41
+391;Panic;Villian;Shapeshifter;16;300
+392;Pascal;Sidekick;Chameleon;30;134
+393;Pearl Gesner;Sidekick;Human;17;55
+394;Peg;Sidekick;Dog;18;354
+395;Pegasus;Hero ;Pegasus;16;134
+396;Penny;Hero ;Human;9;316
+397;Penny;Extra;Human;43;314
+398;Penny's Mom;Sidekick;Human;9;156
+399;Peppo the Italian Cat;Sidekick;Cat;32;445
+400;Percival C. McLeach;Villain;Leach;44;145
+401;Percy;Extra;Dog;25;88
+402;Perdita;Hero ;Dog;1;57
+403;Philippe the Horse;Sidekick;Horse;6;158
+404;Philoctetes;Hero ;Satyr;16;87
+405;Pinocchio;Hero ;Puppet / Human;24;101
+406;Pip;Sidekick;Squirrel;14;197
+407;Plio;Sidekick;Lemur;13;10
+408;Pocahontas;Hero;Human;25;170
+409;Pongo;Hero ;Dog;1;384
+410;Powerline;Extra;Dog;2;427
+411;Preston B. Whitmore;Extra;Human;5;233
+412;Prince;Sidekick;Human;28;161
+413;Prince Charming;Hero ;Human;12;455
+414;Prince Edward;Hero ;Human;14;184
+415;Prince Eric;Sidekick;Human;41;73
+416;Prince Hans;Villian;Human;15;399
+417;Prince Naveen;Sidekick;Frog/Human;42;49
+418;Prince Phillip;Sidekick;Human;27;33
+419;Princess Eilonwy;Sidekick;Human;33;419
+420;Princess Jasmine;Hero ;Human;3;281
+421;Princess Kidagakash;Hero ;Human;5;79
+422;Principal Mazur;Extra;Dog;2;446
+423;Professor Ratigan;Villain;Mouse;37;443
+424;Pronk Oryx-Antlerson;Extra;Oryx;49;189
+425;Pua;Sidekick;Pig;21;325
+426;Pumbaa;Sidekick;Hog;40;127
+427;Quasimodo;Hero;Human;38;431
+428;Queen Grimhilde;Villain;Human;28;287
+429;Queen Leah;Sidekick;Human;27;24
+430;Queen Mousetoria;Extra;Mouse;37;131
+431;Queen Narissa;Villian;Human;14;418
+432;Rafiki;Sidekick;Baboon;40;380
+433;Rajah;Sidekick;Tiger;3;134
+434;Rancis Fluggerbutter;Extra;Human;48;187
+435;Rapunzel;Hero;Human;30;291
+436;Ray the Firefly;Sidekick;Firefly;42;210
+437;Razoul;Villian;Human;3;210
+438;Red;Extra;Kangaroo;44;356
+439;Rhino;Sidekick;Hamster;9;293
+440;Rico;Sidekick;Human;17;60
+441;Rita;Sidekick;Dog;23;409
+442;"Robert ""Bobby"" Zimmeruski";Sidekick;Dog;2;352
+443;Roger Radcliffe;Hero ;Human;1;28
+444;Roquefort the Mouse;Sidekick;Mouse;32;413
+445;Roscoe;Villian;Dog;23;424
+446;Roxanne;Extra;Dog;2;259
+447;Rufus;Hero;Cat;43;234
+448;Runt of the Litter;Sidekick;Pig;11;415
+449;Rusty the Dog;Sidekick;Dog;17;140
+450;Rutt;Sidekick;Moose;10;377
+451;Sadira;Villian;Human;3;259
+452;Sam Flynn;Hero;Human;47;141
+453;Sam the Sheriff;Hero ;Human;17;375
+454;Sarabi;Sidekick;Lion;40;289
+455;Sarafina;Sidekick;Lion;40;459
+456;Sarah Hawkins;Sidekick;Human;46;274
+457;Scar;Villain;Lion;40;203
+458;Scat Cat;Sidekick;Cat;32;401
+459;Scroop;Villain;Alien;46;310
+460;Scuttle;Sidekick;Albatross;41;50
+461;Sebastian;Sidekick;Crab;41;397
+462;Secretary Bird;Extra;Bird;7;276
+463;Sergeant Calhoun;Sidekick;Human;48;188
+464;Sgt. Tibbs;Sidekick;Cat;1;92
+465;Shan Yu;Villian;Human;22;315
+466;Shanti (The Girl);Sidekick;Human;39;89
+467;Shenzi;Villain;Hyena;40;452
+468;Shere Khan;Villain;Tiger;39;147
+469;Shun Gon the Chinese Cat;Sidekick;Cat;32;351
+470;Si;Villian;Cat;18;354
+471;Simba;Hero;Lion;40;241
+472;Sir Ector;Villain;Human;45;405
+473;Sir Kay;Extra;Human;45;335
+474;Sir Pellinore;Extra;Human;45;6
+475;Sitka;Sidekick;Human;10;82
+476;Sleepy;Sidekick;Dwarf;28;361
+477;Sneezy;Sidekick;Dwarf;28;37
+478;Snow White;Hero;Human;28;5
+479;Sour Bill;Villain;Candy;48;370
+480;Squeaks the Caterpillar;Sidekick;Caterpillar;36;235
+481;Stabbington Brothers;Villain;Human;30;386
+482;Stitch;Hero ;Alien;19;69
+483;Stromboli;Villian;Human;24;62
+484;Stu Hopps;Sidekick;Rabbit;49;108
+485;Sultan the Footstool;Sidekick;Footstool / Dog;6;134
+486;Suri;Sidekick;Lemur;13;163
+487;Sven;Sidekick;Moose;15;325
+488;Sykes;Villian;Human;23;382
+489;Tadashi Hamada;Hero ;Human;8;86
+490;Taffyta Muttonfudge;Extra;Human;48;317
+491;Tamatoa;Villian;Crab;21;198
+492;Tanana;Extra;Human;10;215
+493;Tantor;Sidekick;Elephant;31;448
+494;Taran;Hero;Human;33;154
+495;Tarzan;Hero;Human;31;436
+496;Ted Betterhead;Sidekick;Bear;34;102
+497;Terk;Sidekick;Gorilla;31;390
+498;Terpsichore;Extra;Muse;16;268
+499;Thalia;Extra;Muse;16;393
+500;The Agent;Sidekick;Human;9;155
+501;The Archdeacon;Sidekick;Human;38;94
+502;The Carpenter;Sidekick;Seal;4;171
+503;The Caterpillar;Sidekick;Catterpillar;4;372
+504;The Coachman;Villian;Human;24;62
+505;The Colonel;Sidekick;Dog;1;171
+506;The Director;Villian;Human;9;183
+507;The Dodo;Extra;Dodo;4;34
+508;The Doorknob;Sidekick;Doorknob;4;244
+509;The Doorman;Extra;Human;12;106
+510;The Dormouse;Sidekick;Mouse;4;213
+511;The Grand Duke;Extra;Human;12;288
+512;The Horned King;Villain;Beast;33;231
+513;The King;Extra;Human;12;288
+514;The King of Hearts;Villian;Human;4;104
+515;The Magic Mirror;Villain;Mirror;28;324
+516;The Matchmaker;Villian;Human;22;321
+517;The Queen of Hearts;Villian;Human;4;442
+518;The Rose;Extra;Rose;4;111
+519;The Sultan;Extra;Human;3;112
+520;The Walrus;Villian;Human;4;171
+521;Thomas;Sidekick;Human;25;71
+522;Thomas O'Malley;Sidekick;Cat;32;359
+523;Thug;Sidekick;Human;9;365
+524;Tiana;Hero;Human;42;18
+525;Timon;Sidekick;Meerkat;40;330
+526;Tina;Extra;Alien;11;58
+527;Tiny;Extra;Dinosaur;20;223
+528;Tipo;Sidekick;Human;35;124
+529;Tito;Sidekick;Dog;23;67
+530;Toby the Dog;Sidekick;Dog;37;134
+531;Tod;Hero;Fox;36;257
+532;Toulouse;Sidekick;Cat;32;143
+533;Tramp;Hero ;Dog;18;273
+534;Trusty;Sidekick;Dog;18;32
+535;Tug;Sidekick;Bear;10;307
+536;Tui Waialiki;Sidekick;Human;21;426
+537;Tuke;Sidekick;Moose;10;90
+538;Turkey Lurkey;Extra;Turkey;11;107
+539;Tweedledum;Sidekick;Human;4;171
+540;Two Fingers;Extra;Human;42;348
+541;Uncle Art;Extra;Superhero;20;3
+542;Uncle Waldo;Sidekick;Goose;32;34
+543;Url;Sidekick;Dinosaur;13;134
+544;Ursula;Villain;Octopus;41;343
+545;Vanellope von Schweetz;Sidekick;Human;48;400
+546;Vanessa;Villain;Human;41;219
+547;Veteran Cat;Sidekick;Cat;9;102
+548;Victor;Sidekick;Gargoyle;38;63
+549;"Vincenzo ""Vinny"" Santorini";Sidekick;Human;5;109
+550;Vixey;Sidekick;Fox;36;398
+551;Wesley;Extra;Human;17;414
+552;White Rabbit;Sidekick;Rabbit;4;34
+553;Widow Tweed;Sidekick;Human;36;196
+554;Wiggins;Extra;Human;25;94
+555;Wilbur;Extra;Albatross;44;228
+556;Wilbur Robinson;Sidekick;Human;20;451
+557;Wilhelmina Packard;Extra;Human;5;133
+558;Winifred the Elephant;Sidekick;Elephant;39;442
+559;Winston;Sidekick;Human;23;454
+560;Woolter the Ram;Extra;Ram;49;229
+561;Wreck-It Ralph;Hero;Human;48;227
+562;Wynchel;Extra;Donut;48;1
+563;Yao;Sidekick;Human;22;162
+564;Yar;Sidekick;Lemur;13;338
+565;Yax;Sidekick;Yak;49;435
+566;Yzma;Villain;Witch;35;115
+567;Zazu;Sidekick;Horbill;40;391
+568;Zeus;Extra;God;16;378
+569;Ziggy the Vulture;Extra;Vulture;39;103
+570;Zini;Sidekick;Lemur;13;303
